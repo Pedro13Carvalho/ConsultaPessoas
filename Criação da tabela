@@ -1,0 +1,7 @@
+CREATE TABLE Pessoas( 
+  codFuncionario INT PRIMARY KEY NOT NULL IDENTITY(1, 1), 
+  nome VARCHAR(400), 
+  DataNascimento DATETIME, 
+  salario NUMERIC(18, 2), 
+  atividades VARCHAR(MAX) 
+); 
